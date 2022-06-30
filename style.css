@@ -31,12 +31,15 @@ header h1{
     border-radius: 50px;
 }
 
-/* for banner img make sure to put a rgba background to make the button stand out  */
+/* for banner img make sure to put a rgba background to make the button stand out 
+SUCCESS LETS GO */
+
 .banner{
-    background-image: url('/img/better_call_saul-9-1024x576.jpg');
+    /* background-image: url('/img/better_call_saul-9-1024x576.jpg'); */
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.15)), url(/img/better_call_saul-9-1024x576.jpg);
 }
 
 .banner img{
@@ -63,7 +66,10 @@ header h1{
     font-size: 4.5rem;
 }
 
-/* nav{
+/* find out how to put nav into the top and link them  */
+
+nav{
     background-color: #ffd600;
     padding: 1.4rem;
-} */
+    top: 9rem;
+}
