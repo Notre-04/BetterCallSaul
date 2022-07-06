@@ -15,7 +15,6 @@ body{
 
 header{
     background-color: #ffd600;
-    padding: 3rem;
     text-align: center;
     position: fixed;
     top: 0;
@@ -32,46 +31,31 @@ header h1{
 }
 
 .logo-img{
-    width: 115px;
-    height: 115px;
+    width: 120px;
+    height: 110px;
 }
 
 /* for banner img make sure to put a rgba background to make the button stand out 
 SUCCESS LETS GO */
 
 .banner{
-    /* background-image: url('/img/better_call_saul-9-1024x576.jpg'); */
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.15)), url(/img/better_call_saul-9-1024x576.jpg);
 }
 
-.banner img{
-    max-width: 100%;
-}
+ /* button question here  */
 
-.banner .welcome{
-    position: relative;
-    left: 0;
-    top: 100%;
-    background-color: #ffd600;
+.button{
+    background-color: rgb(240, 190, 25);
     color: red;
-    padding: 2rem;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    text-decoration: none;
+    padding: 2rem 3rem;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 1.5rem;
 }
-
-.banner h2{
-    font-size: 5.5rem;
-}
-
-.banner h2 span{
-    font-size: 4.5rem;
-}
-
-/* find out how to put nav into the top and link them  */
 
 nav{
     top: 0;
@@ -85,5 +69,15 @@ nav ul{
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    font-size: 2rem;
+}
+
+nav li{
+    font-size: 2.5rem;
+}
+
+main{
+    max-width: 100%;
+    width: 175rem;
+    margin: 5rem auto;
+    padding: 0 2.5rem;
 }
