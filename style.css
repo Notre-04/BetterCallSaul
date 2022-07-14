@@ -31,21 +31,25 @@ header h1{
 }
 
 .logo-img{
-    width: 120px;
-    height: 110px;
+    width: 20rem;
+    /* height: 110px; */
 }
 
 /* for banner img make sure to put a rgba background to make the button stand out  */
 
 .banner{
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.15)), url(/img/better_call_saul-9-1024x576.jpg);
 }
 
 .welcome{
-    background-color: #ffd600;
+    text-align: center;
+    font-size: 5rem;
 }
 
  /* button question here  */
@@ -186,3 +190,31 @@ p::selection{
     color: black;
 }
 
+@media screen and (max-width: 1400px){
+    .banner .welcome h2{
+        font-size: 6rem;
+    }
+    nav li{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .banner .welcome h2{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .banner .welcome{
+        position: relative;
+        text-align: center;
+        padding: 0.2rem;
+    }
+
+    .banner .welcome br{
+        display: none;
+    }
+
+
+}
