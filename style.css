@@ -23,16 +23,9 @@ header{
     z-index: 1;
 }
 
-header h1{
-    color: black;
-    padding: 0.6rem 0.8rem;
-    display: inline-block;
-    border-radius: 50px;
-}
 
 .logo-img{
     width: 20rem;
-    /* height: 110px; */
 }
 
 /* for banner img make sure to put a rgba background to make the button stand out  */
@@ -70,7 +63,6 @@ nav{
     top: 0;
     position: sticky;
     width: 100%;
-    margin: 2rem;
 }
 
 nav ul{
@@ -88,7 +80,6 @@ main{
     max-width: 100%;
     max-height: 100%;
     background-color: #ffd600;
-    /* margin: 100rem 0; */
 }
 
 article h2{
@@ -102,7 +93,12 @@ article h2{
 article p{
     line-height: 2.5em;
     margin: 2.5rem;
-    font-size: 20px;
+    font-size: 2rem;
+}
+
+article img{
+    width: 55%;
+    margin: 2rem 6rem;
 }
 
 .achievements h2{
