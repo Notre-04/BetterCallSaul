@@ -52,11 +52,17 @@ header{
     background-color: rgb(240, 190, 25);
     color: red;
     text-decoration: none;
-    padding: 2.3rem 3rem;
+    padding: 2rem 3rem;
     font-weight: bold;
     border-radius: 20px;
     font-size: 1.7rem;
     border: none;
+    transition: 0.25s ease;
+}
+
+.button:hover{
+    background: red;
+    color: white;
 }
 
 nav{
@@ -91,14 +97,16 @@ article h2{
 /* ask abt p text due to error  */
 
 article p{
-    line-height: 2.5em;
+    line-height: 2em;
     margin: 2.5rem;
     font-size: 2rem;
 }
 
 article img{
     width: 55%;
-    margin: 2rem 6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .achievements h2{
@@ -113,12 +121,27 @@ article img{
 
 .achievements img{
     width: 55%;
-    margin-left: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-position: center;
 }
 
 .pages h2{
     font-size: 5rem;
     margin: 4rem 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pages h3{
+    font-size: 5rem;
+    margin: 4rem 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-style: italic;
 }
 
 ul{
@@ -136,25 +159,31 @@ li{
 
 li img{
     width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
 }
 
 section.join{
     background-color: #ffd600;
     text-align: center;
-    padding: 4rem 2rem;
     color: black;
 }
 
 .join h1{
+    background: black;
+    padding: 2rem;
     font-size: 5rem;
-    margin: 2rem 0;
-    border: 4px solid black;
-    /* color: white; */
+    color: white;
+    margin: 2rem;
+    border: 30px solid black;
 }
 
 .join h2{
     font-size: 2.25rem;
     margin: 2rem;
+    padding: 1.5rem;
 }
 
 form input{
@@ -174,6 +203,13 @@ form input{
     border-radius: 20px;
     margin-left: 1.5rem;
     font-size: 1.5rem;
+    font-weight: bolder;
+    transition: 0.25s ease;
+}
+
+.button-email:hover{
+    background: rgb(97, 95, 95);
+    color: white;
 }
 
 footer{
